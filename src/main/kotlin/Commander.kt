@@ -5,6 +5,7 @@ abstract class Commander {
 
     abstract fun command()
 
+
     fun commandReader(): Int {
         val comChoice: Int
         while (true) {
